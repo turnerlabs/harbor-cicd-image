@@ -11,3 +11,8 @@ Includes:
 - [harbor-compose](https://github.com/turnerlabs/harbor-compose)
 - [jq](https://stedolan.github.io/jq/)
 
+Usage:
+
+```
+docker pull quay.io/turner/harbor-cicd-image
+```
