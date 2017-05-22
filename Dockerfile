@@ -32,7 +32,7 @@ RUN curl -L https://github.com/docker/compose/releases/download/${DC_VERSION}/do
 RUN apt-get install -y jq
 
 # install harbor-compose
-ENV HC_VERSION v0.11.0-pre-4-gbafb6f2
+ENV HC_VERSION v0.11.0
 
 RUN curl -sSLo /usr/local/bin/harbor-compose https://github.com/turnerlabs/harbor-compose/releases/download/${HC_VERSION}/ncd_linux_amd64 && chmod +x /usr/local/bin/harbor-compose
 
