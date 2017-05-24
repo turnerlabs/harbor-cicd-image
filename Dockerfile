@@ -36,4 +36,7 @@ ENV HC_VERSION v0.11.0
 
 RUN curl -sSLo /usr/local/bin/harbor-compose https://github.com/turnerlabs/harbor-compose/releases/download/${HC_VERSION}/ncd_linux_amd64 && chmod +x /usr/local/bin/harbor-compose
 
+RUN mkdir -p /app
+WORKDIR /app
+
 CMD ["/bin/bash"]
